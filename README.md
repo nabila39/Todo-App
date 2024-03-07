@@ -9,4 +9,4 @@ Todo App is a basic digital tool for managing tasks. Users can add tasks they ne
 - As a user, I should be able to remove all item from the list in one click (remove it from local storage)
 - As a user, I can still have my list even if I close the browser window
 # Live Demo
-You can vist the wibsite from [Todo App](https://nabila39.github.io/nabilaPortfolio/)
+You can vist the wibsite from [Todo App](https://nabila39.github.io/Todo-App/)
