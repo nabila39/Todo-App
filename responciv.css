@@ -41,12 +41,12 @@
         height: 10rem;
     }
     .add{
-        color: #000000;
+        color: #ffffff;
         font-size: 0.6rem;
         font-weight: bold;
         padding: 0.3rem 0.7rem;
         border-radius: 0.3rem;
-        background-color: #ffdead;
+        background-color: #5C8374;
         border: 0.8px solid #000000;
         /*border: none;*/
         position: absolute;
