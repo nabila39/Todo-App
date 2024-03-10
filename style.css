@@ -1,5 +1,5 @@
 body {
-  background-color: #ffcba4;
+  background-color: #1B4242;
   margin: 0;
   height: 100vh;
   display: flex;
@@ -9,20 +9,21 @@ body {
 }
 
 .add {
-  color: #000000;
+  color: #ffffff;
   font-size: 1.1rem;
   font-weight: bold;
-  padding: 2% 4%;
+  padding: 1% 2%;
   border-radius: 0.3rem;
-  background-color: #ffdead;
+  background-color: #5C8374;
   border: 0.1rem solid #000000;
   position: absolute;
-  right: 2%;
-  bottom: 2%;
+  right: 1%;
+  bottom: 12%;
+  
 }
 
 .add:hover {
-  background-color: #ffa07a;
+  background-color: #9EC8B9;
   color: rgb(0, 0, 0);
   border: none;
 }
@@ -36,7 +37,7 @@ h1, h2, h3, h4, h5, h6, p {
   flex-direction: column;
   justify-content: space-around;
   border-radius: 2rem;
-  background-color: white;
+  background-color: #9EC8B9;
   padding: 3%;
   height: 70%;
   width: 50%;
@@ -47,7 +48,7 @@ h1, h2, h3, h4, h5, h6, p {
 h1 {
   text-transform: uppercase;
   height: 3rem;
-  color: #ffa07a;
+  color: #1B4242;
   text-align: center;
 }
 
@@ -65,7 +66,7 @@ h1 {
 }
 
 input[type="text"]::placeholder {
-  color: #ddd6d3;
+  color: #dbd3cf;
 }
 
 .todo-container {
@@ -125,8 +126,8 @@ input[type="checkbox"]::before {
 
 input[type="checkbox"]:checked::before {
   color: rgb(0, 0, 0);
-  background-color: rgb(135, 209, 135);
-  border: 0.1rem solid rgb(135, 209, 135);
+  background-color: rgb(63, 180, 63);
+  border: 0.1rem solid rgb(63, 180, 63);
   border-radius: 50%;
   checkmark: "\2713";
 }
@@ -143,16 +144,16 @@ input[type="checkbox"]:checked::before {
 
 .delete-button {
   margin-left: 1%;
-  background-color: #ffdead;
-  color: rgb(0, 0, 0);
+  background-color: #5C8374;
+  color: rgb(255, 255, 255);
   border: none;
-  padding: 0.5% 1%;
+  padding: 2% 4%;
   border-radius: 0.3rem;
   cursor: pointer;
 }
 
 .delete-button:hover {
-  background-color: #ffa07a;
+  background-color: #1B4242;
 }
 
 .todo-buttons {
@@ -177,8 +178,8 @@ input[type="checkbox"]:checked::before {
 
 .counter-container button {
   border: none;
-  color: rgb(0, 0, 0);
-  background-color: #ffdead;
+  color: rgb(255, 255, 255);
+  background-color: #5C8374;
   font-size: 1rem;
 }
 
@@ -192,7 +193,7 @@ input[type="checkbox"]:checked::before {
 }
 
 .scroll::-webkit-scrollbar-thumb {
-  background-color: rebeccapurple;
+  background-color: rgb(0, 0, 0);
   border-radius: 0.5rem;
 }
 
