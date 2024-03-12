@@ -94,6 +94,7 @@ li {
   align-items: center;
   width: 25rem; /* You may adjust this width as needed */
   word-wrap: break-word;
+  font-size: x-large;
 }
 
 #todoList .disabled {
@@ -113,11 +114,11 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]::before {
-  content: "\2713";
+ content: "\2714";
   display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  font-size: 1.7rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
   border: 0.1rem solid gray;
   border-radius: 50%;
@@ -125,11 +126,10 @@ input[type="checkbox"]::before {
 }
 
 input[type="checkbox"]:checked::before {
-  color: rgb(0, 0, 0);
-  background-color: rgb(63, 180, 63);
-  border: 0.1rem solid rgb(63, 180, 63);
+  color: rgb(255, 255, 255);
+  background-color: #5C8374;
   border-radius: 50%;
-  checkmark: "\2713";
+
 }
 
 .todo-container {
@@ -147,9 +147,23 @@ input[type="checkbox"]:checked::before {
   background-color: #5C8374;
   color: rgb(255, 255, 255);
   border: none;
-  padding: 2% 4%;
+  padding: 0.8rem 1.6rem;
   border-radius: 0.3rem;
   cursor: pointer;
+  
+}
+.edit-input {
+  padding: 1.5%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  width: 100%;
+  height: inherit;
+}
+.edit-input:focus {
+  border-color: #5C8374; /* Change border color on focus */
+  box-shadow: 0 0 5px #1B4242; /* Add a subtle box shadow on focus */
 }
 
 .delete-button:hover {
