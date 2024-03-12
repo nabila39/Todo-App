@@ -71,7 +71,7 @@ const editTask=(index) =>{
   const todoItem = document.getElementById(`todo-${index}`);
   const existingText = todo[index].text;
   const inputElement = document.createElement("input");
-
+  inputElement.classList.add("edit-input");
   inputElement.value = existingText;
   todoItem.replaceWith(inputElement);
   inputElement.focus();
